@@ -1,17 +1,18 @@
 <script setup lang="ts">
 // import HelloWorld from './components/HelloWorld.vue'
 import CardGrab from './components/CardGrab.vue';
+import Rank from "./components/Rank/Rank.vue"
 </script>
 
 <template>
   <div class="App">
     <div class="App_cardsGrab">
-    <CardGrab theme="dark" />
+      <CardGrab theme="dark" />
       <CardGrab theme="light" />
     </div>
     <div class="App_rank">
-      <!-- <Rank />
-                                      <Rank theme="dark" /> -->
+      <Rank theme="light" />
+      <Rank theme="dark" />
     </div>
   </div>
 </template>

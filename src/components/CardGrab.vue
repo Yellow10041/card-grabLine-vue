@@ -141,7 +141,6 @@ onMounted(() => {
             duration: 0.2,
           })
         )
-
       },
 
       onDrag: function () {
